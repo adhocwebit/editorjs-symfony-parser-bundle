@@ -14,12 +14,12 @@
         }
     },
     "require": {
-        "php": ">=7.4",
+        "php": ">=8.2",
         "ext-dom": "*",
         "ext-json": "*",
         "masterminds/html5": "^2.7",
         "symfony/flex": "^1.12 || ^2.0",
-        "symfony/framework-bundle": "^7.0",
+        "symfony/framework-bundle": "^5.0 || ^6.0 || ^7.0",
         "twig/twig": "^3.3"
     },
     "require-dev": {
@@ -28,6 +28,11 @@
     "config": {
         "allow-plugins": {
             "symfony/flex": true
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
         }
     }
 }
